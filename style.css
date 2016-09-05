@@ -18,7 +18,7 @@ h1, h2 {
   color: rgba(0, 0, 0, 0.6); }
 
 .huge {
-  font-size: 3em; }
+  font-size: 2.6em; }
 .title{
   color:#fff;
 }
@@ -116,7 +116,8 @@ h1, h2 {
   float: left; }
 
 .fr {
-  float: right; }
+  float: right; 
+ }
 
 .flex-right {
   display: flex;
@@ -125,47 +126,47 @@ h1, h2 {
 .arrow-down-div-1 {
   width: 0;
   height: 0;
-  border-left: 50vw transparent solid;
-  border-right: 50vw transparent solid;
-  border-top: 50px #4DB6AC solid;
+  border-left: 49vw transparent solid;
+  border-right: 49vw transparent solid;
+  border-top: 49px #4DB6AC solid;
   z-index: 2; }
 
 .arrow-down-div-2 {
   width: 0;
   height: 0;
-  border-left: 50vw transparent solid;
-  border-right: 50vw transparent solid;
-  border-top: 50px solid #fff;
+  border-left: 49vw transparent solid;
+  border-right: 49vw transparent solid;
+  border-top: 49px solid #fff;
   z-index: 2;
-  margin-bottom:-50px; }
+  margin-bottom:-49px; }
 
 .arrow-down-div-3{
   width:100%;
   height:0;
-  border-left:50vw solid #fff;
-  border-right:50vw solid #fff; 
-  border-top:50px solid transparent;
-  margin-top:-50px;
+  border-left:49vw solid #fff;
+  border-right:49vw solid #fff; 
+  border-top:49px solid transparent;
+  margin-top:-49px;
   z-index:1;
 }
 
 .arrow-down-div-4{
   width:0;
   height:0;
-  border-left:50vw transparent solid;
-  border-right:50vw transparent solid;
-  border-top:50px solid #fff;
-  margin-bottom:-50px;
+  border-left:49vw transparent solid;
+  border-right:49vw transparent solid;
+  border-top:49px solid #fff;
+  margin-bottom:-49px;
   z-index:2;
 
 }
 .arrow-down-div-5{
   width:100%;
   height:0;
-  border-left:50vw solid #4db6ac;
-  border-right:50vw solid #4db6ac; 
-  border-top:50px solid transparent;
-  margin-top:-50px;
+  border-left:49vw solid #fff;
+  border-right:49vw solid #fff; 
+  border-top:49px solid transparent;
+  margin-top:-49px;
   z-index:1;
  
 }
@@ -186,27 +187,29 @@ h1, h2 {
   background-size: auto 200px,auto 150px,auto 150px;
   background-position: bottom left,bottom center,bottom right;
   background-repeat: no-repeat; }
+   
   .navbar ul li {
     display: inline-block;
-    padding:15px 20px;
+    padding:20px;
      }
     .navbar ul li a {
       color: rgba(0, 0, 0, 0.5);
       text-decoration: none;
-     
+      text-transform:uppercase;
+      transition:all ease-in-out 0.2s;
       padding-bottom: 10px;
-      font-size:larger; }
+      font-size:initial; }
       .navbar ul li a i {
         margin-right: 10px; }
       .navbar ul li a:hover, .navbar ul li a:focus {
-        color: rgba(0, 0, 0, 0.9);
+        color: rgba(0, 0, 0,1);
          
         
          }
     .navbar ul li img {
       max-height: 40px; }
   .navbar p {
-    font-size: 1.5 em;
+    font-size: 0.8 em;
     line-height: 1.25 em; }
  
 ul.tagline-design li {
@@ -273,11 +276,11 @@ textarea {
 	}
 input[type="submit"] {
   color:#e8e8e8;
-  height: 45px;
-  width: 100%;
-  max-width:250px;
+  height: 36px;
+  width: 96%;
+  
   text-align: center;
-  background:rgba(255,255,255,0.4);
+  background:rgba(255,255,255,0.2);
   border:none;
   
 	}
@@ -337,10 +340,14 @@ input[type="submit"] {
 }
 
 .footer{
-  background:#4DB6AC;
+   
   height:450px;
   width:100%;
-  
+  background-image:url("http://www.fgscholars.org/wp-content/uploads/2015/08/footer-new.jpg");
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
 }
   
 .brand-name {
