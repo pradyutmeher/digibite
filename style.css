@@ -5,7 +5,7 @@ body {
   min-width: 1200px;
   padding: 0;
   margin: 0;
-  font-family: "Lato", sans-serif; }
+  font-family: "Open Sans", sans-serif; }
 
 hr {
   border-top: 1px black solid;
@@ -15,12 +15,12 @@ h5 {
   line-height: 1; }
 
 h1, h2 {
-  color: rgba(0, 0, 0, 0.6); }
+  color: rgba(255,255,255,0.8); }
 
 .huge {
-  font-size: 2.6em; }
+  font-size: 2.1em; }
 .title{
-  color:#fff;
+  color:rgba(255,255,255,0.8);
 }
 .big {
   font-size: 1.5em; }
@@ -98,7 +98,9 @@ h1, h2 {
   display: flex;
   align-items: center;
   justify-content: center; }
-
+.ht-30{
+  height:30px;
+}
 .ht-50 {
   height: 50px; }
 
@@ -109,7 +111,8 @@ h1, h2 {
   height: 100px; }
 
 .ht-280 {
-  height:280px; }
+  height:280px;
+  }
 
  
 .fl {
@@ -124,12 +127,13 @@ h1, h2 {
   justify-content: flex-end; }
 
 .arrow-down-div-1 {
-  width: 0;
+  width: 100%;
   height: 0;
-  border-left: 49vw transparent solid;
-  border-right: 49vw transparent solid;
-  border-top: 49px #4DB6AC solid;
-  z-index: 2; }
+  border-left: 49vw solid #fff;
+  border-right: 49vw solid #fff;
+  border-top: 49px solid transparent;
+  z-index: 2;
+  margin-top:-49px;}
 
 .arrow-down-div-2 {
   width: 0;
@@ -170,39 +174,59 @@ h1, h2 {
   z-index:1;
  
 }
+.header{
+  background:#fff;
+  
+}
+.header h2{
+  color:#333;
+}
 .transparent {
   background: transparent; }
 
 .semi-trans {
-  background: rgba(255, 255, 255, 0.7); }
-
+  background: rgba(255, 255, 255, 0.2); }
+ 
 .navbar {
   position: relative;
   width: 100%;
-  height: 420px;
+  height: 480px;
   overflow: hidden;
-  z-index: 1;
-  background:url("https://d30y9cdsu7xlg0.cloudfront.net/png/25705-200.png"),url("https://www.elementarydigital.co.uk/wp-content/uploads/2013/06/ed-icon-strategy.png"),url("http://socialpulse.co/addons/shared_addons/themes/socialpulse//img/product_icons/02_Reach.png");
-  background-color: #4DB6AC; 
-  background-size: auto 200px,auto 150px,auto 150px;
-  background-position: bottom left,bottom center,bottom right;
-  background-repeat: no-repeat; }
+  z-index: 2;
+  background-color: #333; 
+  
+  }  
+.navbar::before{
+    content:'';
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    width:100%;
+    height:100%;
+    background:url("https://assets.entrepreneur.com/content/3x2/1300/20150727171039-business-desk-workspace-working-hard.jpeg") no-repeat fixed;
+    background-size:cover;
+    z-index:-1;
+    opacity:0.4;
+}
    
   .navbar ul li {
     display: inline-block;
     padding:20px;
      }
     .navbar ul li a {
-      color: rgba(0, 0, 0, 0.5);
+      color: rgba(255,255,255,0.8);
       text-decoration: none;
       text-transform:uppercase;
+      font-weight:600;
       transition:all ease-in-out 0.2s;
       padding-bottom: 10px;
       font-size:initial; }
       .navbar ul li a i {
         margin-right: 10px; }
       .navbar ul li a:hover, .navbar ul li a:focus {
-        color: rgba(0, 0, 0,1);
+        color: rgba(255,255,255,1);
          
         
          }
@@ -229,6 +253,9 @@ ul.tagline-design li {
   color:#4DB6AC;
 }
 
+.about{
+  padding:40px 0;
+} 
  
 #content-div-1 {
   position: relative;
@@ -240,6 +267,7 @@ ul.tagline-design li {
   background-repeat: no-repeat;
   background-attachment:fixed;
   padding:80px 0;
+  opacity:0.9;
   }
 .contact-form{
   max-width:100%;
@@ -298,7 +326,7 @@ input[type="submit"] {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment:fixed;
-  
+  opacity:0.8;
 }
 .nav {
   position: relative;
@@ -307,7 +335,7 @@ input[type="submit"] {
   z-index: 1; }
     .nav ul li {
     display: inline-block;
-    padding:20px;
+    padding:20px 50px;
      }
     .nav ul li a {
        
@@ -336,7 +364,7 @@ input[type="submit"] {
 }
 .nav-tab .valign-center h2{
   color:#4DB6AC;
-  border-bottom:1px solid #4DB6AC;
+ 
 }
 
 .footer{
