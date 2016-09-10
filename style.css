@@ -2,10 +2,10 @@
 body {
   min-height: 100vh;
   height: 100%;
-  min-width: 1200px;
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif; }
+  font-family: "Montserrat", sans-serif;
+  color:#fff; }
 
 hr {
   border-top: 1px black solid;
@@ -17,10 +17,15 @@ h5 {
 h1, h2 {
   color:#fff; }
 
+h3,p{
+  color:#000;
+}
 .huge {
-  font-size: 1.8em; }
+  font-size: 1.8em;
+  font-weight:100;
+}
 .title{
-  color:rgba(255,255,255,0.8);
+  color:#fff;
 }
 .big {
   font-size: 1.5em; }
@@ -183,7 +188,8 @@ h1, h2 {
 
 .brand-name img {
   margin-top: 40px;
-  padding: 0; }
+  padding: 0;
+  max-width:250px; }
   
  
 .navbar {
@@ -235,6 +241,18 @@ h1, h2 {
     font-size: 0.8 em;
     line-height: 1.25 em; }
  
+.nav-menu{
+  flex-direction:column;
+  align-items:flex-end;
+  
+}
+.nav-menu h4{
+  padding-bottom:0;
+  margin-right:20px;
+}
+.nav-menu ul{
+  margin-top:0;
+}
 
 .about{
   padding:40px 0;
@@ -242,10 +260,14 @@ h1, h2 {
  
 .about .centered-text{
   opacity:0.6;
+  border-right:2px solid #ccc;
+}
+.about .centered-text:last-child{
+  border:none;
 }
 .about .centered-text:hover{
   opacity:1;
-  color:#009688;
+  
 }
 
 #content-div-1 {
@@ -361,7 +383,7 @@ input[type="submit"] {
    
   height:450px;
   width:100%;
-  background-color:#009688;
+  background-color:#555555;
   opacity:0.6;
 }
   
