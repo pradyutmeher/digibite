@@ -153,19 +153,19 @@ a{
     padding:20px;
      }
     .navbar ul li a {
-      color: #fff;
+      color: #ececec;
       text-decoration: none;
       text-transform:uppercase;
        	display:block;
 	line-height:32px;
 	padding:0 15px;
-      transition:all ease-in-out 0.2s;
+      transition:all ease-in 0.2s;
       padding-bottom: 10px;
       font-size:initial; }
 
 
 .navbar ul li a:hover, .navbar ul li a:focus {
-        color: #ececec;
+        color: #fff;
 
          }
 
@@ -197,7 +197,7 @@ a{
 {
 	line-height:120%;
 	padding:10px 15px;
-background: rgba(255,255,255,0.3);
+background: rgba(0,0,0,0.3);
 
 }
 
@@ -328,7 +328,7 @@ textarea {
   height: 106px;
   padding-left: 3%;
   margin-bottom: 22px;
-  width: 96%;
+  width: 100%;
   background:transparent;
   border:1px solid #ddd;
   color:#fff;
