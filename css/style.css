@@ -10,12 +10,7 @@ body {
 *{
   box-sizing:border-box;
 }
-hr {
-  border-top: 1px black solid;
-  border-bottom: 0px black solid; }
 
-h5 {
-  line-height: 1; }
 
 h1, h2 {
   color:#fff; }
@@ -42,15 +37,6 @@ a{
 .row {
   margin: 0 !important; }
 
-.inline {
-  display: inline-block !important; }
-
-.fill {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; }
 
 .content {
   position: relative;
@@ -167,10 +153,19 @@ a{
   background: rgba(255, 255, 255, 0.2); }
 
 .brand-name img {
-  margin-top: 130px;
+  margin-top: 60px;
   padding: 0;
   max-width:250px; }
-
+.header-text{
+	margin-top:130px;
+	text-align:center;
+}
+  .header-text h2{
+	    width: 600px;
+    margin: 0 auto;
+    font-size: 26px;
+    font-weight: 100;
+}
 
 .navbar {
   position: relative;
@@ -213,7 +208,7 @@ a{
 
 
 .navbar ul li a:hover, .navbar ul li a:focus {
-        color: #fff;
+        color: #ececec;
 
          }
 
@@ -323,9 +318,12 @@ a{
     .nav ul li img {
       max-height: 150px; }
 
-
+.nav p{
+	margin-left: 47px;
+    color: #fff;
+}
 .nav-tab .valign-center{
-  padding:0 30px;
+  padding:10px 40px;
 
 }
 .nav-tab .valign-center h2{
@@ -396,7 +394,6 @@ input[type="submit"] {
 .footer{
    text-align:center;
   width:100%;
-  margin-top: -90px;
 }
 .footer p{
 	font-size:12px;
