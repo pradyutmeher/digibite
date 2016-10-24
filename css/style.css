@@ -113,13 +113,14 @@ a{
   padding: 0;
   max-width:250px; }
 .header-text{
-	margin-top:100px;
-	text-align:center;
+    position: absolute;
+    bottom: 75px;
+    left: 27%;
+    text-align: center;
 }
 
   .header-text h2{
     width: 600px;
-    margin: 0 auto;
     font-size: 26px;
     font-weight: 100;
    color:#f1f1f1;
