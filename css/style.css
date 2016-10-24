@@ -109,16 +109,16 @@ a{
   background: transparent; }
  
 .brand-name img {
-  margin-top: 130px;
+  margin-top: 60px;
   padding: 0;
   max-width:250px; }
 .header-text{
-	margin-top:100px;
+	margin-top:0px;
 	text-align:center;
 }
-  @media only screen and (min-width: 993px){
+  @media all screen and (min-width: 993px){
 	  .header-text{
-		  margin-top:0px;
+		  margin-top:130px;
 	  }
 }
   .header-text h2{
