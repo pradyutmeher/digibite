@@ -309,9 +309,9 @@ background: rgba(0,0,0,0.3);
 }
 input, textarea {
 
-  font-size: 12px;
+  font-size: 14px;
   padding: 10px 0;
-  text-transform: uppercase;
+  text-transform: none;
 		}
 input[type="text"] {
   float: left;
