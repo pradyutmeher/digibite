@@ -119,10 +119,10 @@ a{
 
   .header-text h2{
     width: 600px;
-    font-size: 26px;
+    font-size: 38px;
     font-weight: 100;
    color:#f1f1f1;
-	  margin:200px auto;
+	  margin:150px auto;
 }
 
 .navbar {
@@ -372,4 +372,7 @@ input[type="submit"] {
 }
 .social-list li a:hover{
   color:#000;
+}
+.details{
+	color:#333;
 }
