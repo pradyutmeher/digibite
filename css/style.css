@@ -366,8 +366,12 @@ input[type="submit"] {
     display: inline-block;
    font-size:40px;
 }
-.social-list li a{
-  color:#333;
+.social-list li a:nth-child(1){
+  color:#3b5998;
+  transition:all 0.1s ease-in-out;
+}
+.social-list li a:nth-child(2){
+  color:#0077B5;
   transition:all 0.1s ease-in-out;
 }
 .social-list li a:hover{
@@ -376,6 +380,8 @@ input[type="submit"] {
 .details{
 	color:#333;
 	margin-top:60px;
-	margin-left:60px;
 	text-align:left;
+}
+.details h5{
+	margin-left:80px;
 }
