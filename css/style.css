@@ -375,4 +375,7 @@ input[type="submit"] {
 }
 .details{
 	color:#333;
+	margin-top:60px;
+	margin-left:60px;
+	text-align:left;
 }
