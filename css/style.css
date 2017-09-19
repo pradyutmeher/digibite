@@ -366,11 +366,11 @@ input[type="submit"] {
     display: inline-block;
    font-size:40px;
 }
-.social-list li a:nth-child(1){
+.social-list li:nth-child(1)  a{
   color:#3b5998;
   transition:all 0.1s ease-in-out;
 }
-.social-list li a:nth-child(2){
+.social-list li:nth-child(2) a{
   color:#0077B5;
   transition:all 0.1s ease-in-out;
 }
@@ -383,5 +383,5 @@ input[type="submit"] {
 	text-align:left;
 }
 .details h5{
-	margin-left:80px;
+	margin-left:180px;
 }
